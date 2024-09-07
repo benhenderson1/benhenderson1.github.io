@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     font-size: 1.5vw;
+    background-color: rgb(181, 216, 228);
 }
 
 
@@ -79,6 +80,11 @@ h2{
 
 body > footer{
     background-color: rgb(37, 102, 187);
+    color: white;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
 }
 
 img{
@@ -99,3 +105,15 @@ body > footer{
     color: white;
     text-decoration: none;
 }
+
+.circle {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    background: #89d383;
+    display: inline-block;
+  }
