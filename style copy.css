@@ -164,3 +164,10 @@ body > footer > nav > ul{
     display: inline-block;
     font-family: 'Times New Roman', Times, serif;
   }
+
+
+  #background{
+    background-color: rgb(153, 202, 245);
+    width: 72%;
+    align-self: center;
+  }
