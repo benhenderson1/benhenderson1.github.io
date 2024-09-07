@@ -7,7 +7,7 @@ body{
 
 
 
-#logo{
+.logo{
     margin: 0px;
     padding: 8px;
     font-family: 'Times New Roman', Times, serif, sans-serif;
@@ -35,11 +35,11 @@ body > header{
     font-family: 'Times New Roman', Times, serif;
 }
 
-#nav-ul {
+.nav-ul {
     display: flex;
 }
 
-#nav-ul > li {
+.nav-ul > li {
     padding: 10px;
     margin: 16px;
 }
@@ -103,20 +103,28 @@ body > footer{
     display: flex;
 }
 
-#footer-ul{
+.footer-ul{
+    display:flex;
+}
+
+.footer-ul{
     display: flex;
     list-style: none;
     padding: 10px;
     margin: 16px;
 }
 
-#footer-ul > div > li > a{
-    margin-left: 12px;
-    color: white;
+
+
+body > footer > nav > ul{
+    list-style: none;
     text-decoration: none;
-    padding: 10px;
-    margin: 16px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+
+
+
 
 .circle1 {
     width: 180px;
