@@ -30,8 +30,9 @@ body > header{
     color: white;
     display: flex;
     height: 12vh;
-    align-items: center;
+    align-items: left;
     justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #nav-ul {
@@ -46,6 +47,7 @@ body > header{
 body > header > nav > ul{
     list-style: none;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .navbutton{
@@ -54,16 +56,21 @@ body > header > nav > ul{
     padding: 16px;
     border: 1px solid white;
     border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body > main article{
     width: 70%;
     margin: auto;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #main-content{
     display: flex;
     justify-content: space-around;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #main-content aside{
@@ -85,6 +92,7 @@ body > footer{
     height: 12vh;
     align-items: center;
     justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 img{
@@ -98,22 +106,53 @@ body > footer{
 #footer-ul{
     display: flex;
     list-style: none;
+    padding: 10px;
+    margin: 16px;
 }
 
 #footer-ul > div > li > a{
     margin-left: 12px;
     color: white;
     text-decoration: none;
+    padding: 10px;
+    margin: 16px;
 }
 
-.circle {
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
+.circle1 {
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
     border-radius: 50%;
     font-size: 15px;
     color: #fff;
     text-align: center;
     background: #89d383;
     display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.circle2 {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    background: #89d383;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.circle3 {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    background: #89d383;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
   }
